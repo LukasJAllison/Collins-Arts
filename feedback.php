@@ -1,12 +1,13 @@
-<?php
-$msg = "Name:t$fnamen";
-$msg = "Name:t$lnamen";
-$msg = "Email:t$emailn";
-$msg = "PClass:t$pclassn";
-$msg = "Feedback:t$feedbackn";
+<? php 
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$pclass = $_POST['pclass'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$formcontent ="From: $fname, $lname, $pclass \n Message: $subject";
 $recipient = "lukas.allison@shelby.kyschools.us";
-$subject = "Feedback from Allison's Art Room";
-$mailheaders = "Reply-To:$emailn";
-mail($recipient, $subject, $msg, $mailheaders);
-header("Location:http://www.yoursite.com/thankyou.html");
+$subject = "Contact Form";
+$mailheader = "From: $email \r \n";
+mail(recipient, $subject, $formcontent, $mailheader) or die("Error!")
+  echo "Thank you for your feedback!";
 ?>
