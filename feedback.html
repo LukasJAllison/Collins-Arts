@@ -28,7 +28,7 @@ label {
    }
    
  input[type=select], select, textarea {
-   background-color: rgb(153, 255, 255);
+   background-color: rgb(100, 100, 100);
    color: white;
    padding: 12px 20px;
    border: none;
@@ -72,7 +72,7 @@ label {
  <body>
  <h2>Feedback Form</h2>
  <div class="container">
-    <form action="feedback.php" method="POST">
+    <form action="https://mlchs-titans-repository.000webhostapp.com/feedback.php" method="POST">
        <div class="row">
           <div class="col-25">
              <label for="fname">First Name</label>
@@ -125,7 +125,6 @@ label {
        </div>
        <div class="row">
           <input type="submit" value="submit">
-          <?php require 'feedback.php'; echo "Submission Accepted"; ?>
        </div>
     </form>
  </div>
