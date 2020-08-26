@@ -72,7 +72,7 @@ label {
  <body>
  <h2>Feedback Form</h2>
  <div class="container">
-    <form>
+    <form action="feedback.php">
        <div class="row">
           <div class="col-25">
              <label for="fname">First Name</label>
@@ -129,17 +129,6 @@ label {
     </form>
  </div>
  
-    <?php
-      $msg = "Name:t$fnamen";
-      $msg = "Name:t$lnamen";
-      $msg = "Email:t$emailn";
-      $msg = "PClass:t$pclassn";
-      $msg = "Feedback:t$feedbackn";
-      $recipient = "lukas.allison@shelby.kyschools.us";
-      $subject = "Feedback from Allison's Art Room";
-      $mailheaders = "Reply-To:$emailn";
-      mail($recipient, $subject, $msg, $mailheaders);
-      header("Location:http://www.yoursite.com/thankyou.html");
-    ?>
+    
  </body>
  </html>
