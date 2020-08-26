@@ -28,7 +28,7 @@ label {
    }
    
  input[type=select], select, textarea {
-   background-color: rgb(46, 116, 116);
+   background-color: rgb(27, 110, 110);
    color: white;
    padding: 12px 20px;
    border: none;
@@ -126,8 +126,17 @@ label {
        <div class="row">
           <input type="submit" value="submit">
           <?php
-            include('feedback.php');
-          ?>
+$msg = "Name:t$fnamen";
+$msg = "Name:t$lnamen";
+$msg = "Email:t$emailn";
+$msg = "PClass:t$pclassn";
+$msg = "Feedback:t$feedbackn";
+$recipient = "lukas.allison@shelby.kyschools.us";
+$subject = "Feedback from Allison's Art Room";
+$mailheaders = "Reply-To:$emailn";
+mail($recipient, $subject, $msg, $mailheaders);
+header("Location:http://www.yoursite.com/thankyou.html");
+?>
        </div>
     </form>
  </div>
