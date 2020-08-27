@@ -18,6 +18,16 @@ input[type=text], select, textarea {
    border: 1px solid rgb(70, 68, 68);
    border-radius: 4px;
    resize: vertical;
+      &:valid {
+        background: url(check.svg);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+
+        & + label {
+          opacity: 0;
+        }
+      }
    }
 input[type=email], select, textarea {
    width: 100%;
