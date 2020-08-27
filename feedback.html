@@ -11,6 +11,27 @@ body {
    background-color: #000033;
    color: white;
    }
+  
+form {
+
+    > input[type="text"],
+    > input[type="email"],
+    > input[type="password"] {
+      
+      // show success!
+      &:valid {
+        background: url(check.svg);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+
+        // continue to hide the label
+        & + label {
+          opacity: 0;
+        }
+      }
+    }
+  }
    
 input[type=text], select, textarea {
    width: 100%;
@@ -18,16 +39,6 @@ input[type=text], select, textarea {
    border: 1px solid rgb(70, 68, 68);
    border-radius: 4px;
    resize: vertical;
-      &:valid {
-        background: url(check.svg);
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: 20px 20px;
-
-        & + label {
-          opacity: 0;
-        }
-      }
    }
 input[type=email], select, textarea {
    width: 100%;
