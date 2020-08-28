@@ -12,24 +12,10 @@ body {
    color: white;
    }
   
-form {
-
-    > input[type="text"],
-    > input[type="email"]{
-      
-      // show success!
-      &:valid {
-        background: url(check.svg);
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: 20px 20px;
-
-        // continue to hide the label
-        & + label {
-          opacity: 0;
-        }
-      }
-    }
+input:required:valid {
+    background-image: url(/images/check.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
   }
    
 input[type=text], select, textarea {
