@@ -1800,6 +1800,10 @@
 		color: #1e1f23;
 	}
 
+	c {
+		color: #f0f88f;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #1e1f23;
 	}
@@ -2619,6 +2623,7 @@
 
 	section.special, article.special {
 		text-align: center;
+		position: fixed;
 	}
 
 	header p {
@@ -2649,21 +2654,39 @@
 
 /*Video Container */
 
- 	.VidsCon {
-  	position: relative;
- 	padding-top: 2rem;
- 	padding-bottom: 56.25%; /* 16:9 */
- 	height: 0;
+  .VidsCon {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  }
+  
+  .VidsCon iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  }
+
+/*Flexible Banner */
+	.Bannerh {
+		position: relative;
+		background-color: #e2e1e1;
+		color:#336699;
+		align-content: space-around;
 	}
 
-  	.VidsCon iframe {
- 	position: absolute;
-  	top: 0;
- 	left: 0;
-  	width: 100%;
-  	height: 100%;
- 	}
-
+/*Menu Sticky */
+	.menuS {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
 /*Spotlight */
 
 	.spotlight {
@@ -3033,6 +3056,10 @@
 	}
 
 /* Main */
+	.main {
+  	padding: 16px;
+  	margin-top: 30px;
+}
 
 	#main > .inner {
 		margin: 0 auto;
@@ -3151,10 +3178,11 @@
 		.wrapper.style2 header {
 			background: #121315;
 			border-radius: 4px 4px 0 0;
+			color: #f0f8ff !important;
 		}
 
 			.wrapper.style2 header h2 {
-				color: #FFF;
+				color: #f0f8ff !important;
 			}
 
 				.wrapper.style2 header h2:after {
@@ -3162,7 +3190,7 @@
 				}
 
 			.wrapper.style2 header p {
-				color: rgba(255, 255, 255, 0.25);
+				color: #f0f8ff !important;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3180,6 +3208,7 @@
 			}
 
 		}
+    
 
 /* Footer */
 
