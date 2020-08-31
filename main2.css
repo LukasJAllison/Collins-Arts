@@ -3151,11 +3151,11 @@
 		.wrapper.style2 header {
 			background: #121315;
 			border-radius: 4px 4px 0 0;
-			color: white;
+			color: #f0f8ff;
 		}
 
 			.wrapper.style2 header h2 {
-				color: white;
+				color: #f0f8ff;
 			}
 
 				.wrapper.style2 header h2:after {
@@ -3163,7 +3163,7 @@
 				}
 
 			.wrapper.style2 header p {
-				color: rgba(0, 0, 0, 0.25);
+				color: #f0f8ff;
 			}
 
 		@media screen and (max-width: 1280px) {
