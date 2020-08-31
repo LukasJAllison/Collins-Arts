@@ -2682,7 +2682,7 @@
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
 }
 /*Spotlight */
@@ -3054,6 +3054,10 @@
 	}
 
 /* Main */
+	.main {
+  	padding: 16px;
+  	margin-bottom: 30px;
+}
 
 	#main > .inner {
 		margin: 0 auto;
