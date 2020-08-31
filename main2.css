@@ -2676,6 +2676,15 @@
 		color:#336699;
 		align-content: space-around;
 	}
+
+/*Menu Sticky */
+	.menuS {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /*Spotlight */
 
 	.spotlight {
