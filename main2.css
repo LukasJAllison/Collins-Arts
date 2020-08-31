@@ -1800,6 +1800,10 @@
 		color: #1e1f23;
 	}
 
+	c {
+		color: #f0f88f;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #1e1f23;
 	}
@@ -2651,7 +2655,7 @@
 
   .VidsCon {
   position: relative;
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   }
