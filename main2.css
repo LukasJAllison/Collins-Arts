@@ -2651,6 +2651,7 @@
 
   .VidsCon {
   position: relative;
+  padding-top: 6rem;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   }
