@@ -2653,27 +2653,8 @@
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  background: #1e1f23;
   }
   
-  .VidsCon header {
-  border-radius: 4px 4px 0 0;
-  color: white;
-  }
-
-  .VidsCon h2 {
-  border-radius: 4px 4px 0 0;
-  color: white;
-}
-
-  .VidsCon h1 {
-	  border-radius: 4px 4px 0 0;
-	  color: white;
-}
-  .VidsCon header p {
-  color: white;
-  }
-
   .VidsCon iframe {
   position: absolute;
   top: 0;
@@ -3169,6 +3150,7 @@
 		.wrapper.style2 header {
 			background: #121315;
 			border-radius: 4px 4px 0 0;
+			color: white;
 		}
 
 			.wrapper.style2 header h2 {
