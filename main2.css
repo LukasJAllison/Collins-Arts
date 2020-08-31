@@ -2653,8 +2653,19 @@
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  background: #1e1f23;
+  padding: 6rem;
   }
   
+  .VidsCon header {
+  border-radius: 4px 4px 0 0;
+  color: white;
+  }
+
+  .VidsCon header p {
+  color: white;
+  }
+
   .VidsCon iframe {
   position: absolute;
   top: 0;
