@@ -2624,6 +2624,7 @@
 	section.special, article.special {
 		text-align: center;
 		position: fixed;
+		z-index: 0;
 	}
 
 	header p {
@@ -3155,6 +3156,7 @@
 		background: #FFF;
 		padding: 2rem;
 		margin: 0;
+		z-index: 0;
 	}
 
 		.wrapper > header h2 {
