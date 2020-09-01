@@ -2682,15 +2682,16 @@
 	.menuS {
   overflow: hidden;
   background-color: #333;
-  font-family: FontAwesome;
+  font-family: Arial;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 1;
 }
 
 .menuS a {
 	float: left;
+	font-size:16px;
 	color: #f0f8ff;
 	text-align: center;
 	padding: 14px 16px;
@@ -2706,7 +2707,7 @@
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: inherit;
+	color: #f0f8ff;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -2714,16 +2715,16 @@
 }
 
 .menuS a:hover, .dropdown:hover .dropbtn {
-	background-color: rgba(51, 102, 255, 0.25);
+	background-color: rgb(51, 102, 255,);
 }
 
 .dropdown-content {
 	display: none;
-	position: absolute;
+	position: fixed;
 	background-color: inherit;
 	min-width: 150px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 99;
+	z-index: 1;
 }
 
 .dropdown-content a {
