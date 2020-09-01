@@ -2688,8 +2688,7 @@
   padding: 14px 16px;
   top: 0;
   width: 100%;
-  -webkit-transform: translateZ(0);
-  z-index: 100;
+  z-index: 1000;
 }
 
 .menuS a {
