@@ -2721,7 +2721,7 @@
 
 .dropdown-content {
 	display: none;
-	position: absolute;
+	position: fixed;
 	background-color: #f0f8ff;
 	padding: inherit;
 	min-width: 160px;
