@@ -1,6 +1,6 @@
 // *** TO BE CUSTOMISED ***
 
-var style_cookie_name = "safari" ;
+var style_cookie_name = "safari.css" ;
 var style_cookie_duration = 30 ;
 var style_domain = "mlchs-titans.github.io" ;
 
