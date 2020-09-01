@@ -2,7 +2,7 @@
 
 var style_cookie_name = "safari" ;
 var style_cookie_duration = 30 ;
-var style_domain = "mlchs-titans.github.io/Collins-Arts" ;
+var style_domain = "mlchs-titans.github.io" ;
 
 // *** END OF CUSTOMISABLE SECTION ***
 // You do not need to customise anything below this line
