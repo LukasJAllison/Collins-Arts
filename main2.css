@@ -2739,7 +2739,7 @@
 }
 
 .dropdown-content a:hover {
-	background-color: rgba(51, 102, 255, 0.25);
+	background-color: rgb(51, 102, 255);
 }
 
 .dropdown:hover .dropdown-content {
