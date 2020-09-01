@@ -2681,7 +2681,7 @@
 /*Navbar */
 	.menuS {
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
   font-family: Arial;
   position: fixed;
   top: 0;
@@ -2711,7 +2711,7 @@
 	outline: none;
 	color: #f0f8ff;
 	padding: 14px 16px;
-	background-color: #333;
+	background-color: #333333;
 	font-family: inherit;
 	margin: 0;
 }
@@ -2723,7 +2723,7 @@
 .dropdown-content {
 	display: none;
 	position: fixed;
-	background-color: inherit;
+	background-color: #333333;
 	min-width: 150px;
 	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
 	z-index: 100;
