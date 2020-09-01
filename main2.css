@@ -2682,6 +2682,7 @@
 	.menuS {
   overflow: hidden;
   background-color: #333;
+  font-family: FontAwesome;
   position: fixed;
   top: 0;
   width: 100%;
