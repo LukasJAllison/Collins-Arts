@@ -2705,13 +2705,12 @@
 
 .dropdown .dropbtn {
 	font-size: 16px !important;
-	text-align: center !important;
-	vertical-align: middle !important;
+	text-align: center;
 	border: none !important;
 	outline: none !important;
 	color: #f0f8ff !important;
 	padding: 14px 16px !important;
-	background-color: #333333 !important;
+	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
 }
@@ -2722,10 +2721,10 @@
 
 .dropdown-content {
 	display: none;
-	position: fixed;
+	position: absolute;
 	background-color: #f0f8ff;
 	padding: inherit;
-	min-width: 150px;
+	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
 	z-index: 100;
 }
