@@ -6,9 +6,10 @@
 		<title>MLCHS Fine Arts Hub</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="main2.css" />
+		<link rel="stylesheet" type="text/css" title="reg-browser" href="main2.css" />
+		<link rel="alternate stylesheet" type="text/css" title="safari-alt" href="safari.css" />
 	</head>
-	<body>
+	<body onload="set_style_from_cookie()">
 <div class="menuS">
 	
 	<div class="dropdown">
@@ -54,6 +55,8 @@
 					<section id="one" class="wrapper style1">
 		<header class="special">
 				<h2>MLCHS Fine Arts Hub</h2>
+			<p> Click the "Safari" button if you are using Safari/iOS browser </p>
+			<button type="button" onclick="switch_style('safari-alt');return false;" name="theme" value="Safari" id="safari">Safari</button>
 			</header>
 					  <div class="image fit flush">
                       <video autoplay playsinline muted width="100%" height="auto" src="Video_Banner_Main.mp4" poster="Banner.jpg" ></video>
@@ -146,6 +149,7 @@ I`m Proud To Be an Art Teacher at MLCHS! Go Titans!</p>
 
 
 		<!-- Scripts -->
+	<script src="switcher.js"></script>
 	<script src="jquery.min.js"></script>
 	<script src="jquery.poptrox.min.js"></script>
 	<script src="skel.min.js"></script>
