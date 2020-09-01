@@ -2682,7 +2682,7 @@
 	.menuS {
   overflow: hidden;
   background-color: #333333;
-  height: 40px;
+  min-height: 160px;
   font-family: Arial;
   position: fixed;
   padding: 14px 16px;
