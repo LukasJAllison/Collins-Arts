@@ -2705,11 +2705,13 @@
 
 .dropdown .dropbtn {
 	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
 	border: none;
 	outline: none;
 	color: #f0f8ff;
 	padding: 14px 16px;
-	background-color: inherit;
+	background-color: #333;
 	font-family: inherit;
 	margin: 0;
 }
