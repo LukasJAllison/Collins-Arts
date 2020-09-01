@@ -2718,6 +2718,7 @@
 
 .menuS a:hover, .dropdown:hover .dropbtn {
 	background-color: rgb(51, 102, 255);
+	height: 500px;
 }
 
 .dropdown-content {
