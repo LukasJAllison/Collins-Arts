@@ -2682,8 +2682,10 @@
 	.menuS {
   overflow: hidden;
   background-color: #333333;
+  height: 40px;
   font-family: Arial;
   position: fixed;
+  padding: 14px 16px;
   top: 0;
   width: 100%;
   z-index: 100;
