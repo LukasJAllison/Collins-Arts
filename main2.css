@@ -2664,6 +2664,8 @@
 
   .VidsCon.alt {
 	  position: absolute; 
+	  padding-top: 2em;
+	  padding-bottom: 56.25%;
     	  right: 0; 
     	  bottom: 0;
    	  min-width: 100%; 
@@ -2671,6 +2673,7 @@
    	  width: auto; 
  	  height: auto; 
     	  background-size: cover;
+	  background-color: #f0f8ff;
     	  overflow: hidden;
 	  z-index: 0;
   }
