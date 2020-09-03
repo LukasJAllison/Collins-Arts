@@ -2662,7 +2662,7 @@
   height: 0;
   }
 
-  .VidsCon movie {
+  .VidsCon.alt {
 	  position: absolute; 
     	  right: 0; 
     	  bottom: 0;
