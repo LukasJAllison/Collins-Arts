@@ -2666,8 +2666,8 @@
 	  position: relative; 
     	  top: 0; 
     	  left: 0;
-   	  min-width: 100%; 
-   	  min-height: 100%;
+   	  min-width: 320; 
+   	  min-height: 180;
    	  width: auto; 
  	  height: auto; 
     	  overflow: hidden;
