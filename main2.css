@@ -2664,15 +2664,12 @@
 
   .VidsCon.alt {
 	  position: relative; 
-	  padding-top: 2em;
-	  padding-bottom: 56.25%;
-    	  right: 0; 
-    	  bottom: 0;
-   	  min-width: 100%; 
-   	  min-height: 100%;
+    	  top: 0; 
+    	  left: 0;
+   	  min-width: 25%; 
+   	  min-height: 25%;
    	  width: auto; 
  	  height: auto; 
-    	  background-size: cover;
     	  overflow: hidden;
 	  z-index: 0;
   }
