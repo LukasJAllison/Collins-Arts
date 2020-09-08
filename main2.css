@@ -2629,8 +2629,21 @@
 	font-family: inherit;
 	margin: 0;
 }
-
+.dropdown .dropbtn2 {
+	font-size: 16px !important;
+	text-align: center;
+	border: none !important;
+	outline: none !important;
+	color: #f0f8ff !important;
+	padding: 10px 16px !important;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
 .menuS a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(51, 102, 255);
+}
+.menuS a:hover, .dropdown:hover .dropbtn2 {
 	background-color: rgb(51, 102, 255);
 }
 
