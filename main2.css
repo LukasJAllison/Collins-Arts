@@ -2542,6 +2542,7 @@
 .navbar ul {
 	background-color; #333333;
 	text-align: center;
+	z-index: 250;
 }
 
 .navbar ul li ul {
@@ -2577,12 +2578,13 @@
 }
 
 .navbar li a {
+	text-decoration: none;
 	display: block;
 	color: #f0f8ff;
 	line-height: 60px;
 }
 
-.navbar li a:hover { background-color: rgb(51, 102, 255); }
+.navbar li a:hover { background-color: #3399cc; }
 
 .navbar li a:hover + ul {
 	display: block;
