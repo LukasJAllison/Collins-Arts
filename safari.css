@@ -2733,7 +2733,7 @@
 
 .navbar li:hover li a:hover {rgb (0, 102, 153); }
 
-.main-navigation li ul li { border-top: 0;}
+.navbar li ul li { border-top: 0;}
 
 .navbar ul ul ul {
 	left: 100%;
