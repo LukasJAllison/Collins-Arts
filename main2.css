@@ -2500,7 +2500,7 @@
 	  z-index: 0;
   }
   
-  video {
+  .VidsCon video {
 	  position: absolute;
 	  top: 0;
 	  left: 0;
