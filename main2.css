@@ -2740,7 +2740,7 @@
 	font-family: inherit;
 	margin: 0;
 }
-.popout .dropbtn2 {
+.popout .dropbtn {
 	font-size: 16px;
 	text-align: center;
 	border: none;
@@ -2756,14 +2756,13 @@
 	background-color: rgb(51, 102, 255);
 }
 
-.menuS a:hover, .popout:hover .dropbtn2 {
+.menuS a:hover, .popout:hover .dropbtn {
 	background-color: rgb(51, 102, 255);
 }
 
 .popout-content {
 	display: none;
-	position: fixed;
-	left:100%;
+	position: relative;
 	top: 0;
 	background-color: #f0f8ff;
 	padding: inherit;
