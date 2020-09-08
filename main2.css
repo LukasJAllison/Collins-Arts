@@ -2552,11 +2552,13 @@
 	width: 100%;
 	background-color: #333333;
 	transform: all .5s;
+	z-index: 500;
 }
 
 .navbar ul li ul:hover {
 	display block;
 	opacity: 1;
+	z-index: 600;
 }
 
 .navbar ul li ul li { width: 100%; }
@@ -2565,6 +2567,7 @@
 	position: absolute;
 	top: 0;
 	left: 100%;
+	z-index: 1000;
 }
 
 .navbar li {
@@ -2584,6 +2587,7 @@
 .navbar li a:hover + ul {
 	display: block;
 	opacity: 1;
+	z-index: 1010;
 }
 	.menuS {
   overflow: hidden;
