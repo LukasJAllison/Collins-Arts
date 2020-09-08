@@ -2582,7 +2582,7 @@
 	line-height: 60px;
 }
 
-.navbar li a:hover { background-color: #f0f0f0; }
+.navbar li a:hover { background-color: rgb(51, 102, 255); }
 
 .navbar li a:hover + ul {
 	display: block;
