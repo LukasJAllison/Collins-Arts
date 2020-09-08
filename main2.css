@@ -2725,7 +2725,10 @@
 	float: left;
 	overflow: hidden;
 }
-
+.popout {
+	float:right;
+	overflow: hidden;
+}
 .dropdown .dropbtn {
 	font-size: 16px !important;
 	text-align: center;
@@ -2737,9 +2740,34 @@
 	font-family: inherit;
 	margin: 0;
 }
+.popout .dropbtn {
+	font-size: 16px;
+	text-align: center;
+	border: none;
+	outline: none;
+	color: #f0f8ff;
+	padding: 10px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
 
 .menuS a:hover, .dropdown:hover .dropbtn {
 	background-color: rgb(51, 102, 255);
+}
+
+.menuS a:hover, .popout:hover .dropbtn {
+	background-color: rgb(51, 102, 255);
+}
+
+.popout-content {
+	display: none;
+	position: fixed;
+	background-color: #f0f8ff;
+	padding: inherit;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+	z-index: 1000;
 }
 
 .dropdown-content {
@@ -2751,6 +2779,15 @@
 	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
 	z-index: 1000;
 	
+}
+
+.popout-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
 }
 
 .dropdown-content a {
@@ -2766,7 +2803,15 @@
 	background-color: rgb(51, 102, 255);
 }
 
+.popout-content a:hover {
+	background-color: rgb(51, 102, 255);
+}
+
 .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.popout:hover .popout-content {
 	display: block;
 }
 	
