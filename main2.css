@@ -2762,7 +2762,7 @@
 
 .popout-content {
 	display: none;
-	position: fixed;
+	position: relative;
 	background-color: #f0f8ff;
 	padding: inherit;
 	min-width: 160px;
