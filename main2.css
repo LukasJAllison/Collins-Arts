@@ -2726,7 +2726,7 @@
 	overflow: hidden;
 }
 .popout {
-	float:right;
+	float:left;
 	overflow: hidden;
 }
 .dropdown .dropbtn {
@@ -2740,7 +2740,7 @@
 	font-family: inherit;
 	margin: 0;
 }
-.popout .dropbtn {
+.popout .dropbtn2 {
 	font-size: 16px;
 	text-align: center;
 	border: none;
@@ -2756,13 +2756,15 @@
 	background-color: rgb(51, 102, 255);
 }
 
-.menuS a:hover, .popout:hover .dropbtn {
+.menuS a:hover, .popout:hover .dropbtn2 {
 	background-color: rgb(51, 102, 255);
 }
 
 .popout-content {
 	display: none;
-	position: relative;
+	position: fixed;
+	left:100%;
+	top: 0;
 	background-color: #f0f8ff;
 	padding: inherit;
 	min-width: 160px;
