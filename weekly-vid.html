@@ -106,7 +106,12 @@
 				</div>
 <section id="two">
 	<!--Content 2-->
-					<div class="wrapper style2">
+	<div class="wrapper style2">
+	<div id="archive" class="overlay">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							
+							<div class="overlay-content">
+					
          <div class="content">
 		 <h1 class="c" style="color: #f0f8ff">Archived Classes</h1>
 							<h2 class="c" style="color: #f0f8ff">Art 1 - Week 1 (Aug 31 - Sept 4, 2020)</h2>
@@ -147,9 +152,13 @@
 				  sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
 			</iframe>
 					</div>	
-		
+						</div>
+						
+								</div>
 					</div>
-					</div>
+					
+	<span style="cursor:pointer" onclick="openNav()">&#9776;open archived videos</span>
+		</div>
 		</section>
 	</section>
     
@@ -162,6 +171,13 @@
 	
 	function closeNav() {
 		document.getElementById("popout001").style.width = "0%";
+	}
+	function openNav() {
+		document.getElementById("archive").style.width = "100%";
+	}
+	
+	function closeNav() {
+		document.getElementById("archive").style.width = "0%";
 	}
 </script>
 				<script src="switcher.js"></script>
