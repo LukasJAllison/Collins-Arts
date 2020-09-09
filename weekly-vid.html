@@ -108,7 +108,7 @@
 	<!--Content 2-->
 	<div class="wrapper style2">
 	<div id="archive" class="overlay">
-							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &times;</a>
+							<a href="javascript:void(0)" class="closebtn" onclick="closeArc()">close &times;</a>
 							
 							<div class="overlay-content">
 					
@@ -157,7 +157,7 @@
 								</div>
 					</div>
 					
-	<span style="color: white; cursor:pointer" onclick="openNav()">&#9776;open week 1 archive</span>
+	<span style="color: white; cursor:pointer" onclick="openArc()">&#9776;open week 1 archive</span>
 		</div>
 		</section>
 	</section>
@@ -172,11 +172,11 @@
 	function closeNav() {
 		document.getElementById("popout001").style.width = "0%";
 	}
-	function openNav() {
+	function openArc() {
 		document.getElementById("archive").style.width = "100%";
 	}
 	
-	function closeNav() {
+	function closeArc() {
 		document.getElementById("archive").style.width = "0%";
 	}
 </script>
