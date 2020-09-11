@@ -92,23 +92,10 @@
     text-align: center;
 }
 
-/* Basic */
-    @-ms-viewport {
-        width: device-width;
-}
-
-body {
-    -ms-overflow-style: scrollbar;
-}
-
-@media screen and (max-width: 480px) {
-    html, body {
-        min-width: 320px;
-    }
 
 /*  Header */
 
-    body:after { 
+    body { 
         background-image: url('webBG1.png');
         background-attachment: fixed;
         background-position: center;
