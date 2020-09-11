@@ -60,7 +60,9 @@
 
 .bioMain .grid-container {
     display: grid;
-    grid:
+    min-height: 480px;
+    grid-template-areas:
+        'photo photo photo about about about'
         'photo photo photo about about about'
         'captn captn captn about about about';
     grid-gap: 5px;
@@ -70,7 +72,10 @@
 
 .bioMain.alt .grid-container {
     display: grid;
-    grid:
+    min-height: 480px;
+    grid-template-areas:
+        'about about about photo photo photo'
+        'about about about photo photo photo'
         'about about about photo photo photo'
         'about about about captn captn captn';
     grid-gap: 5px;
@@ -83,16 +88,7 @@
     text-align: center;
 }
 
-.bioMain .grid-container .item1 {
-    justify-content: start;   
-}
 
-.bioMain .grid-container .item2 {
-    justify-content: end;
-}
-.bioMain .grid-container .item3 {
-    justify-content: end;
-}
     
         
 
