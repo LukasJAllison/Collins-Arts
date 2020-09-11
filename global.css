@@ -1,0 +1,72 @@
+/*Reset*/
+
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, embed, footer, header, hgroup, menu, nav, output, section, {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: large;
+        vertical-align: baseline;
+        font-family: Verdana, Geneva, sans-serif;
+        font-style: normal;
+        line-height: normal;
+        color: #000;
+    }
+    
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    
+    body {
+        line-heigth: 1;
+    }
+    
+    ol, ul {
+        list-style: none;
+    }
+    
+    blockquote {
+        quotes: none;
+    }
+    
+    blockquote:before {
+        content: ' \275D';
+    }
+    
+    blockquote:after {
+        content: ' \275E';
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+/* Containers */
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+/* Grid */
+    .bioMain {
+          display: -moz-flex;
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          -moz-flext-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          -moz-align-items: center;
+          -webkit-align-items: center;
+          -ms-alight-items: center;
+          align-items: center;
+     }
+    
+    .item1 {
+        grid-area: Image;
+    }
+    
+    
+    
