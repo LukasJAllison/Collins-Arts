@@ -109,7 +109,7 @@ body {
 /*  Header */
 
     body:after { 
-        background-image: url("webBG1.png");
+        background-image: url(webBG1.png);
         background-attachment: fixed;
         background-position: center;
         background-color: linear-gradient(#102f45 #040d12);
