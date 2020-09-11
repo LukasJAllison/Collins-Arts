@@ -98,6 +98,8 @@
 
 .bioMain .grid-container {
     display: grid;
+    height-min: 500px;
+    width: auto;
     grid:
         'photo photo photo about about about'
         'captn captn captn about about about';
@@ -108,6 +110,8 @@
 
 .bioMain.alt .grid-container {
     display: grid;
+    height-min: 500px;
+    width: auto;
     grid:
         'about about about photo photo photo'
         'about about about captn captn captn';
