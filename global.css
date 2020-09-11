@@ -94,15 +94,17 @@
 
 /*  Header */
 
-    body { 
+    body:after { 
         background-image: url("webBG1.png");
+        background-attachment: fixed;
+        background-position: center;
         background-color: linear-gradient(#102f45 #040d12);
         background-repeat: no-repeat;
-        background-color: #040d12;
         background-size: 110% 110%;
-        display: block;
         top: 0;
         left: 0;
+        height: 100%;
+        width: 100%;
         z-index: -100;
 }
 
