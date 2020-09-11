@@ -165,12 +165,12 @@
 }
 
 .wrapper.style1 .content {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .wrapper.style2 {
     background: #1e1f23;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .wrapper.style2 header {
