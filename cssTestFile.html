@@ -4,7 +4,93 @@
             <title>CSS Test File</title>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" type="text/css" href="global.css" />
+            <style>
+                  .bioMain {
+          display: -moz-flex;
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          -moz-flext-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          -moz-align-items: center;
+          -webkit-align-items: center;
+          -ms-alight-items: center;
+          align-items: center;
+     }
+
+    .bioMain .inner {
+            padding: 6rem;
+}
+
+    .bioMain .image {
+            margin: 0;
+}
+
+    .bioMain .image img {
+            width: 100%;
+}
+
+    .bioMain.alt {
+            background: #1e1f23;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: right;
+}
+    .bioMain.alt .image {
+        order: 2;
+        -moz-order: 2;
+        -webkit-order: 2;
+        -ms-order: 2;
+}
+
+    
+.bioMain .item1 { grid-area: photo; }
+.bioMain .item2 { grid-area: about; }
+.bioMain .item3 { grid-area: captn; }
+.bioMain.alt .item1 { grid-area: photo; }
+.bioMain.alt .item2 { grid-area: about; }
+.bioMain.alt .item3 { grid-area: captn; }
+
+.bioMain .grid-container {
+    display: grid;
+    height-min: 500px;
+    width: auto;
+    grid:
+        'photo photo photo about about about'
+        'captn captn captn about about about';
+    grid-gap: 5px;
+    background-color: #939ab6;
+    padding: 5px;
+}
+
+.bioMain.alt .grid-container {
+    display: grid;
+    height-min: 500px;
+    width: auto;
+    grid:
+        'about about about photo photo photo'
+        'about about about captn captn captn';
+    grid-gap: 5px;
+    background-color: #939ab6;
+    padding: 5px;
+}
+
+.bioMain .grid-container > div {
+    background-color: rgba(255,255,255, 0.8);
+    text-align: center;
+}
+
+.bioMain .grid-container .item1 {
+    justify-content: start;   
+}
+
+.bioMain .grid-container .item2 {
+    justify-content: end;
+}
+.bioMain .grid-container .item3 {
+    justify-content: end;
+}
+            </style>
       </head>
       
       <body>
