@@ -61,7 +61,6 @@
 .bioMain .grid-container {
     display: grid;
     grid:
-        500px 40px / auto auto auto;
         'photo photo photo about about about'
         'captn captn captn about about about';
     grid-gap: 5px;
@@ -72,7 +71,6 @@
 .bioMain.alt .grid-container {
     display: grid;
     grid:
-        500px 40px / auto auto auto;
         'about about about photo photo photo'
         'about about about captn captn captn';
     grid-gap: 5px;
