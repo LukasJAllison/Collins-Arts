@@ -403,7 +403,7 @@ button:active,
     font-size: 55px;
 }
 
-.menuOverlay span {
+span {
     position: fixed;
     width: 100%;
     height: 3rem;
