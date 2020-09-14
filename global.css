@@ -363,7 +363,7 @@ button:active,
 /* MENU MENU MENU MENU */
 
 
-.menuOverlay {
+.overlay {
     height: 100%;
     width: 0;
     position: fixed;
@@ -376,7 +376,7 @@ button:active,
     z-index: 100000;
 }
 
-.menuOverlay-content {
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
@@ -384,7 +384,7 @@ button:active,
     margin-top: 30px;
 }
 
-.menuOverlay a {
+.overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
@@ -393,7 +393,7 @@ button:active,
     transition: 0.3s;
 }
 
-.menuOverlay a:hover, .menuOverlay a:focus {
+.overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
 }
 
@@ -404,7 +404,7 @@ button:active,
     font-size: 55px;
 }
 
-.menu {
+.menuS {
     display: block;
     overflow: hidden;
     backgroun-color: #333333;
@@ -425,6 +425,11 @@ span {
 @media screen and (max-height: 450px) {
     .menuOverlay a {font-size: 20px;}
     .menuOverlay .closebtn {
+        font-size: 25px;
+        top: 15px;
+        right: 35;
+    }
+    .menuOverlay .openbtn {
         font-size: 25px;
         top: 15px;
         right: 35;
