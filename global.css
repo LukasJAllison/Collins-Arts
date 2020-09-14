@@ -367,13 +367,14 @@ button:active,
     height: 100%;
     width: 0;
     position: fixed;
+    z-index: 1000;
     left: 0;
     top: 0;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
-    transition: 1.5s;
-    z-index: 100;
+    transition: 1s;
+    
 }
 
 .overlay-content {
@@ -405,7 +406,6 @@ button:active,
 }
 
 .menuS {
-    display: block;
     overflow: hidden;
     backgroun-color: #333333;
     font-family: Arial;
@@ -413,7 +413,7 @@ button:active,
     padding: 14px 16px;
     top: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 1000;
 }
 
 span {
