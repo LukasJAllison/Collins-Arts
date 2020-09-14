@@ -374,6 +374,14 @@ button:active,
     transition: 1.5s;
 }
 
+.menuOverlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .menuOverlay a {
     padding: 8px;
     text-decoration: none;
@@ -474,6 +482,13 @@ button:active,
         height: 100%;
         width: 100%;
         z-index: -100;
+}
+
+#header {
+    color: #a6a6a6;
+    cursor: default;
+    position: relative;
+    text-align: center;
 }
 
 /* Main */
