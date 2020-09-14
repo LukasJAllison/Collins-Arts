@@ -389,7 +389,7 @@ button:active,
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 90px;
     color: #8e8e8e;
     display: block;
     transition: 0.3s;
@@ -418,7 +418,8 @@ button:active,
 }
 
 span {
- 
+    background-color: #333333;
+    padding: 20px;
     color: white;
     cursor: pointer;
 }
