@@ -8,6 +8,22 @@
       </head>
       
       <body>
+            <header>
+                  <div id="Menu" class="menuOverlay">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &times;</a>
+							
+							<div class="menuOverlay-content">
+					
+         <div class="content">
+               <a href="Art_Home.html">Visual Arts Home</a>
+               <a href="Art_Home.html">Visual Arts Home</a>
+               <a href="Art_Home.html">Visual Arts Home</a>
+               <a href="Art_Home.html">Visual Arts Home</a>
+                                                </div>
+                        </div>
+                        <span onclick="openNav()">&#9776;Menu</span>
+                  </div>
+            </header>
       
             <section id="main">
                   <div class="inner">
@@ -39,5 +55,16 @@
                         </section>
                   </div>
             </section>
+                  
+                  <!--Scripts-->
+ <script>
+      function openNav() {
+	      document.getElementById("Menu").style.width = "100%";
+	}
+	
+      function closeNav() {
+		document.getElementById("Menu").style.width = "0%";
+	}
+</script>
       </body>
  </html>
