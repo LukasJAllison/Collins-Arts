@@ -491,6 +491,7 @@ button:active,
     cursor: default;
     position: relative;
     text-align: center;
+    z-index: 10001;
 }
 
 /* Main */
