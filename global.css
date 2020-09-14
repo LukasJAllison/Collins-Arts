@@ -373,7 +373,7 @@ button:active,
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 1.5s;
-    z-index: 100000;
+    z-index: 100;
 }
 
 .overlay-content {
@@ -397,11 +397,11 @@ button:active,
     color: #f1f1f1;
 }
 
-.menuOverlay .closebtn {
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .menuS {
@@ -423,16 +423,11 @@ span {
 }
     
 @media screen and (max-height: 450px) {
-    .menuOverlay a {font-size: 20px;}
-    .menuOverlay .closebtn {
-        font-size: 25px;
+    .overlay a {font-size: 20px;}
+    .overlay .closebtn {
+        font-size: 35px;
         top: 15px;
-        right: 35;
-    }
-    .menuOverlay .openbtn {
-        font-size: 25px;
-        top: 15px;
-        right: 35;
+        right: 35px;
     }
 }
 
