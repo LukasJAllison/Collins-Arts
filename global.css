@@ -403,15 +403,21 @@ button:active,
     font-size: 55px;
 }
 
-span {
+.menu {
+    overflow: hidden;
+    backgroun-color: #333333;
+    font-family: Arial;
     position: fixed;
+    padding: 14px 16px;
+    top: 0;
     width: 100%;
-    height: 3rem;
-    background: #333333;
-    padding: 2rem 0;
+    z-index: 100000;
+}
+
+span {
+ 
     color: white;
     cursor: pointer;
-    z-index: 1000;
 }
     
 @media screen and (max-height: 450px) {
