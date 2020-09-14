@@ -419,9 +419,8 @@ button:active,
 
 span {
     background-color: #333333;
-    width:100%;
-    font-size: 60px;
-    padding: 10px;
+    font-size: 45px;
+    padding: 10px 30px;
     color: white;
     cursor: pointer;
 }
