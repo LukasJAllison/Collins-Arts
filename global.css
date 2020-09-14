@@ -419,7 +419,8 @@ button:active,
 
 span {
     background-color: #333333;
-    padding: 20px;
+    width:100%;
+    padding: 10px;
     color: white;
     cursor: pointer;
 }
