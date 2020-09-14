@@ -230,6 +230,7 @@ button,
     line-height: 2.95rem;
     padding: 14px 16px;
     text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
