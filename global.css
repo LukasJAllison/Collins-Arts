@@ -367,12 +367,12 @@ button:active,
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 100;
     left: 0;
     top: 0;
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 1.5s;
+    z-index: 100000;
 }
 
 .menuOverlay-content {
