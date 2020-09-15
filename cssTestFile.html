@@ -15,8 +15,8 @@
 							<div class="overlay-content-left">
 					
          <div>
-               <a href="Art_Home.html" onmouseover="openNav2()">Art</a>
-               <a href="Music_Home.html" onmouseover="openNav3()">Music Home</a>
+               <a href="Art_Home.html" onmouseover="openNav2(), closeNav3()">Art</a>
+               <a href="Music_Home.html" onmouseover="openNav3(), closeNav2()">Music Home</a>
                <a href="index.html">Fine Arts Home</a>
                <a href="https://www.shelby.kyschools.us/Domain/19" target="_blank">MLCHS Home</a>
                                                 </div>
@@ -69,19 +69,25 @@
                   
                   <!--Scripts-->
  <script>
-      function openNav() {
+      	function openNav() {
 		document.getElementById("MyNav").style.width = "100%";
 	}
 	
-      function closeNav() {
-		document.getElementById("MyNav").style.width = "0%";
-	}
 	function openNav2() {
 		document.getElementById("Nav2").style.width = "50%";
 	}
 	 function openNav3() {
 		document.getElementById("Nav3").style.width = "50%";
 	 }
+	 function closeNav() {
+		document.getElementById("MyNav").style.width = "0%";
+	}
+	 function closeNav2() {
+		document.getElementById("Nav2").style.width = "0%";
+	}
+	 function closeNav3() {
+		document.getElementById("Nav3").style.width = "0%";
+	}
 </script>
       </body>
  </html>
