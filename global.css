@@ -447,6 +447,10 @@ button:active,
     color: white;
     cursor: pointer;
 }
+
+.sOff {
+    display: none;
+}
     
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px;}
