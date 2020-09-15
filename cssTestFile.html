@@ -10,15 +10,15 @@
       <body>
 	      <section id="menu" class="wrapper style1">
 		      <div id="MyNav" class="overlay">
-							<a href="javascript:void(0)" class="closebtn" onmouseover="closeNav2()" onclick="closeNav()">close &times;</a>
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &times;</a>
 							
 							<div class="overlay-content-left">
 					
          <div>
                <a href="Art_Home.html" onmouseover="openNav2()">Art</a>
-               <a href="Art_Home.html">Visual Arts Home</a>
-               <a href="Art_Home.html">Visual Arts Home</a>
-               <a href="Art_Home.html">Visual Arts Home</a>
+               <a href="Music_Home.html" onmouseover="openNav3()">Music Home</a>
+               <a href="index.html">Fine Arts Home</a>
+               <a href="https://www.shelby.kyschools.us/Domain/19" target="_blank">MLCHS Home</a>
                                                 </div>
 			      </div>
 		      </div>
@@ -26,9 +26,9 @@
 									<div class="overlay-content-right">
 										<div>
 											<a href="Allison_home.html">Allison's Art Room</a>
-											<a href="Allison_home.html">Allison's Art Room</a>
-											<a href="Allison_home.html">Allison's Art Room</a>
-											<a href="Allison_home.html">Allison's Art Room</a>
+											<a href="C_home.html">C's Art Class</a>
+											<a href="MediaArt_home.html">Rush's Media Lab</a>
+											<a href="Art_Gallery.html">Virtual Art Gallery</a>
 										</div>
 									</div>
 								</div>
@@ -67,11 +67,25 @@
 		document.getElementById("MyNav").style.width = "0%";
 	}
 	function openNav2() {
+		if (document.getElementById("Nav3").style.width = "50%") {
+			document.getElementById("Nav3").style.width = "0%";
+		}
+						
+		else {
 		document.getElementById("Nav2").style.width = "50%";
+		}
 	}
 	function closeNav2() {
 		document.getElementById("Nav2").style.width = "0%";
 	}
+	 function openNav3() {
+		 if (document.getElementById("Nav2").style.width = "50%") {
+			 document.getElementById("Nav2").style.width = "0%";
+		 }
+		 else {
+			 document.getElementById("Nav3").style.width = "50%";
+		 }
+	 }
 </script>
       </body>
  </html>
