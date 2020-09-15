@@ -451,6 +451,11 @@ button:active,
 .sOff {
     display: none;
 }
+
+.sOff a {
+    display: none;
+    font-size: 25px;
+}
     
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px;}
