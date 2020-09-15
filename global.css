@@ -461,6 +461,9 @@ button:active,
     color: white;
     cursor: pointer;
 }
+.navi a:hover {
+    color: "c6c6c6"
+}
 
 .sOff {
     display: none;
