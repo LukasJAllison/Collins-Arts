@@ -15,8 +15,8 @@
 							<div class="overlay-content-right">
 					
          <div>
-		<a href="Art_Home.html" id="l1" class="dwnA" ><span onmouseover="openNav2(); closeNav3()">Art</span></a>
-                <a href="Music_Home.html" id="l3" class="dwnA" ><span onmouseover="openNav3(); closeNav2()">Music Home</span></a>
+		<a href="Art_Home.html" class="dwnA" ><span onmouseover="openNav2(); closeNav3()">Art<span id="l1">&#x25C0</span><span id="d1" style="display:none">&#x25BC</span></span></a>
+                <a href="Music_Home.html" class="dwnA" ><span onmouseover="openNav3(); closeNav2()">Music Home<span id="l2">&#x25C0</span><span id="d2" style="display:none">&#x25BC</span></span></a>
                 <a href="index.html">Fine Arts Home</a>
                 <a href="https://www.shelby.kyschools.us/Domain/19" target="_blank">MLCHS Home</a>
                                                 </div>
@@ -25,7 +25,7 @@
 								<div id="Nav2" class="overlay">
 									<div class="overlay-content-left">
 										<div>
-											<a href="Allison_home.html" id="l2" style="font-size:2.5rem" class="lftA"><span onmouseover="lvl2()" style>Allison's Art Room</span></a>
+											<a href="Allison_home.html" style="font-size:2.5rem"><span onmouseover="lvl2()" style>Allison's Art Room<span id="l3">&#x25C0</span><span id="d3" style="display:none">&#x25BC</span></span></a>
 											<span id="lvl2" style="display:none" >
 												<a href="weekly-vid.html" style="font-size:1rem" target="_blank">Allison's Weekly Videos</a>
 												<a href="help-vid.html" style="font-size:1rem" target="_blank">Helpful Videos</a>
@@ -83,11 +83,13 @@
 	
 	function openNav2() {
 		document.getElementById("Nav2").style.width = "35%";
-		document.getElementById("l1").className = "lftA";
+		document.getElementById("l1").style.display = "none";
+		document.getElementById("d1").style.display = "inline";
 	}
 	 function openNav3() {
 		document.getElementById("Nav3").style.width = "35%";
-		 document.getElementById("l3").className = "lftA";
+		 document.getElementById("l2").style.display = "none";
+		 document.getElementById("d2").style.display = "inline";
 	 }
 	 function closeNav() {
 		document.getElementById("MyNav").style.width = "0%";
@@ -95,19 +97,23 @@
 	}
 	 function closeNav2() {
 		document.getElementById("Nav2").style.width = "0%";
-		 document.getElementById("l1").className = "dwnA";
+		 document.getElementById("l1").style.display = "inline";
+		 document.getElementById("d1").style.display = "none";
 	}
 	 function closeNav3() {
 		document.getElementById("Nav3").style.width = "0%";
-		 document.getElementById("l3").className = "dwnA";
+		 document.getElementById("l2").style.display = "inline";
+		 document.getElementById("d2").style.display = "none";
 	}
 	 function lvl2() {
 		 document.getElementById("lvl2").style.display = "inline-block";
-		 document.getElementById("l2").className = "dwnA";
+		 document.getElementById("l3").style.display = "none";
+		 document.getElementById("d3").style.display = "inline";
 	 }
 	 function off2() {
 		 document.getElementById("lvl2").style.display = "none";
-		 document.getElementById("l2").className = "lftA";
+		 document.getElementById("l3").style.display = "inline";
+		 document.getElementById("d3").style.display = "none";
 	 }
 </script>
       </body>
