@@ -610,6 +610,10 @@ button:active,
     padding: 2rem;
 }
 
+.wrapper.style1 {
+    padding: 2rem;
+}
+
 .wrapper.style2 {
     background: rgba(30,31,35, 0.9);
     padding: 2rem;
