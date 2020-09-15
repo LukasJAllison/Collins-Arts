@@ -12,14 +12,24 @@
 		      <div id="MyNav" class="overlay">
 							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &times;</a>
 							
-							<div class="overlay-content">
+							<div class="overlay-content-right">
 					
          <div>
-               <a href="Art_Home.html">Visual Arts Home</a>
+               <a href="Art_Home.html" onmouseover="openNav2()" onmouseout="closeNav2()">Art</a>
                <a href="Art_Home.html">Visual Arts Home</a>
                <a href="Art_Home.html">Visual Arts Home</a>
                <a href="Art_Home.html">Visual Arts Home</a>
                                                 </div>
+								<div id="Nav2" class="overlay">
+									<div class="overlay-content-left">
+										<div>
+											<a href="Allison_home.html">Allison's Art Room</a>
+											<a href="Allison_home.html">Allison's Art Room</a>
+											<a href="Allison_home.html">Allison's Art Room</a>
+											<a href="Allison_home.html">Allison's Art Room</a>
+										</div>
+									</div>
+								</div>
                         </div>
                         
 	      </div>
@@ -55,6 +65,12 @@
 	
       function closeNav() {
 		document.getElementById("MyNav").style.width = "0%";
+	}
+	function openNav2() {
+		document.getElementById("Nav2").style.width = "100%";
+	}
+	function closeNav2() {
+		document.getElementById("Nav2").style.width = "0%";
 	}
 </script>
       </body>
