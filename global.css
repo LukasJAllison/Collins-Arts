@@ -418,6 +418,20 @@ button:active,
     transition: 0.3s;
 }
 
+.dwnA a:after {
+    content: '\25BC'
+}
+.upA a:after {
+    content: '\25B2'
+}
+.rgtA a:after {
+    content: '\25B6'
+}
+.lftA a:after {
+    content: '\25C0'
+}
+        
+
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
 }
