@@ -364,7 +364,7 @@ button:active,
 /* MENU MENU MENU MENU */
 
 
-.overlay {
+.overlay-left {
     height: 100%;
     width: 0;
     position: fixed;
@@ -387,6 +387,19 @@ button:active,
     margin-top: 30px;
 }
 
+.overlay-right {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 1s;
+    
+}
 .overlay-content-right {
     position: relative;
     float: right;
