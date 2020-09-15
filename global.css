@@ -440,7 +440,7 @@ button:active,
     z-index: 1000;
 }
 
-span {
+span .navi {
     background-color: #333333;
     font-size: 45px;
     padding: 10px 30px;
