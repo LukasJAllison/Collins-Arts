@@ -25,7 +25,8 @@
 								<div id="Nav2" class="overlay">
 									<div class="overlay-content-left">
 										<div>
-											<a href="Allison_home.html">Allison's Art Room</a>
+											<a href="Allison_home.html"><span onmouseover="lvl2()">Allison's Art Room</span></a>
+											<span id="lvl2" style="sOff"><a href="Weekly-vid.html">Allison's Weekly Videos</a></span>
 											<a href="C_home.html">C's Art Class</a>
 											<a href="MediaArt_home.html">Rush's Media Lab</a>
 											<a href="Art_Gallery.html">Virtual Art Gallery</a>
@@ -88,6 +89,9 @@
 	 function closeNav3() {
 		document.getElementById("Nav3").style.width = "0%";
 	}
+	 function lvl2() {
+		 document.getElementById("lvl2").style.display = "inline";
+	 }
 </script>
       </body>
  </html>
