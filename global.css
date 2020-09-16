@@ -434,6 +434,19 @@ button:active,
     transition: 0.5s;
 }
 
+.MainNav.left {
+    max-width: 75%;
+    float: left;
+    margin: 0 1rem 1rem 0;
+    top: 0.25rem;
+}
+.MainNav.right {
+    max-width: 25%;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    top: 0.25rem;
+}
+
 .MainNav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
