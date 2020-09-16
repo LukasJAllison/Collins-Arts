@@ -449,6 +449,7 @@ button:active,
     color: #c1c1c1;
     display: block;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .MainNav a:hover {
