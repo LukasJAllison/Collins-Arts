@@ -269,59 +269,6 @@ button:active,
 
 /*FORM (insert form here later)*/
 
-.bioStyle {
-    display: inline-block;
-    position: relative;
-}
-
-.bioStyle .flush {
-    margin: 0 !important;
-}
-
-.bioStyle img {
-    display: block;
-}
-
-.bioStyle.left, .bioStyle.right {
-    max-width: 50%;
-}
-
-.bioStyle.left img, .bioStyle.right img {
-    width: 100%;
-}
-
-.bioStyle.left {
-    float: left;
-    margin: 0 1rem 1rem 0;
-    top: 0.25rem;
-}
-
-.bioStyle.right {
-    float: right;
-    margin: 0 1rem 1rem 0;
-    top: 0.25rem;
-}
-
-.bioStyle.fit {
-    display: block;
-    margin: 0 0 2rem 0;
-    width: 100%;
-}
-
-.bioStyle.fit img {
-    width: 100%;
-}
-
-.bioStyle.main {
-    display: block;
-    margin: 0 0 3rem 0;
-    width: 100%;
-}
-
-.bioStyle.main img {
-    width: 100%;
-}
-
 /* Video Container */
 
 .VidsCon {
@@ -594,6 +541,18 @@ button:active,
     position: relative;
     text-align: center;
     z-index: 10001;
+}
+
+#header h1:after{
+    content:'';
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom:0;
+    left: 0;
+    width:10%;
+    height: 2px;
+    background-color: rgba(0,0,0, 0.125);
 }
 
 /* Main */
