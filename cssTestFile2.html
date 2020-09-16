@@ -9,7 +9,7 @@
       
       <body>
 	      <div id="Sidenav" class="MainNav">
-		      <a href="javascript:void(0)" class="closebtn" conclick="closeNav()">close&times;</a>
+		      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close&times;</a>
 		      <a href="index.html">Home</a>
 		      <span id="artopen" style="display:inline" onclick="artDrop()">&#x25BC;</span>
 		      <span id="artclose" style="display:none" onclick="artUp()">&times;</span>
@@ -73,12 +73,12 @@
     function openNav() {
 	    document.getElementById("Sidenav").style.width = "250px";
 	    document.getElementById("main").style.marginLeft = "250px";
-	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	    
     }
 	function closeNav() {
 		document.getElementById("Sidenav").style.width = "0";
 		document.getElementById("main").style.marginLeft = "0";
-		document.body.style.backgroundColor = "white";
+		
 	}
 function artDrop() {
 	document.getElementById("artpop").style.display = "inline";
