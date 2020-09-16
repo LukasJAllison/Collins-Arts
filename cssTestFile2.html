@@ -11,11 +11,11 @@
 	      <div id="Sidenav" class="MainNav">
 		      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close&times;</a>
 		      <a href="index.html">Home</a>
-		      <span id="artopen" onclick="artDrop()">&#x25BC;</span>
+		      <span class="objNav" id="artopen" onclick="artDrop()" onmouseover="mouseOverA()" onmouseleave="mouseOutA()">&#x25BC;</span>
 		      <span id="artclose" style="display:none" onclick="artUp()">&times;</span>
 		      <a href="Art_home">Visual/Media Arts Home</a>
 		      <span id="artpop" style="display:none">
-			      <span style="display:inline" onclick="allDrop()">&#x25BC;</span><a href="Allison_home.html">Allison's Art Class</a>
+			      <span class="objNav" style="display:inline" onclick="allDrop()">&#x25BC;</span><a href="Allison_home.html">Allison's Art Class</a>
 			      <span id"allpop" style="display:none:">
 				      <a href="Weekly-vid.html">Allison's Weekly Videos</a>
 				      <a href="AllisonVR.html">Allison's Virtual Classroom</a>
@@ -86,6 +86,14 @@ function artDrop() {
 	document.getElementById("artclose").style.display = "inline";
 }
 
+function mouseOverA() {
+	document.getElementById("artopen").style.color = "#f1f1f1";
+}
+
+function mouseOutA() {
+	document.getElementById("artopen").style.color = "#c1c1c1";
+}
+	
 
 	
 </script>
