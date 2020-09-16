@@ -392,8 +392,8 @@ button:active,
 
 .navi {
     background-color: #333333;
-    font-size: 45px;
-    padding: 10px 30px;
+    font-size: 25px;
+    padding: 10px 20px;
     color: white;
     cursor: pointer;
 }
