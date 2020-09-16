@@ -11,30 +11,31 @@
 	      <div id="Sidenav" class="MainNav">
 		      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close&times;</a>
 		      
-		      <div class="left">
 			<a href="index.html">Home</a>
-		      <a href="Art_home" style=><span>Art Home</span></a>
+		      <span style="display:block" id="artopen" onclick="artDrop()">&#x25BC;Art</span><span class="objNav" id="artclose" style="display:none" onclick="artUp()">&times;Art</span>
+		      
 		      <span id="artpop" style="display:none">
-			      <a href="Allison_home.html">Allison's Art Class</a>
+			      <a href="Art_home" style=>Art Home</a>
+			     <span class="objNav" id="allOpen" style="display:block" onclick="allDrop()">&#x25BC;Allison's Art Room</span><span class="objNav" id="allClose" style="display:none" onclick="allUp()">&times;Allison's Art Room</span> 
 			      <span id="allpop" style="display:none">
+				      <a href="Allison_home.html">Allison's Art Home</a>
 				      <a href="Weekly-vid.html">Allison's Weekly Videos</a>
 				      <a href="AllisonVR.html">Allison's Virtual Classroom</a>
 			      </span>
 			      <a href="C_home.html">C's Art Class</a>
 			      <a href="MediaArt_Home.html">Rush's Media Room</a>
 		      </span>
-		      <a href="Music_home">Music Home</a>
+		      <span class="objNav" id="mOpen" style="display:block" onclick="mDrop()">&#x25BC;Music</span><span class="objNav" id="mClose" style="display:none" onclick="mUp()">&times;Music</span>
+		      
 		      <span id="musicpop" style="display:none">
+			      <a href="Music_home">Music Home</a>
 			      <a href="Band_home.html">The Band Room</a>
 			      <a href="Choir_home.html">The Choir Chamber</a>
 			      <a href="Orchestra_home.html">The Orchestra Pit</a>
 		      </span>
-	      </div>
-			<div class="right">
-				<span style="display:block" id="artopen" onclick="artDrop()">&#x25BC;</span><span class="objNav" id="artclose" style="display:none" onclick="artUp()">&times;</span>
-				<span class="objNav" style="display:block" onclick="allDrop()">&#x25BC;</span><span class="objNav" id="allClose" style="display:none" onclick="allUp()">&times;</span>
-				<span class="objNav" style="display:block" onclick="mDrop()">&#x25BC;</span>
-	</div>
+				
+				
+				
 	</div>
 	      <div>
 	      <span class="navi" onclick="openNav()">&#x2630;open</span>
