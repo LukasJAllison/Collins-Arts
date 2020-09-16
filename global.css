@@ -419,6 +419,52 @@ button:active,
     }
 }
 
+/* Main Navigation */
+
+.MainNav {
+    height: 100%; 
+    width: 0; /* changes with JavaScript */
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #000033;
+    overflow-x: hidden;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+.MainNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    display: block;
+    transition: 0.3s;
+}
+
+.MainNav a:hover {
+    color: #f1f1f1;
+}
+
+.MainNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    tranistion: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .MainNav {padding-top: 15px;}
+    .MainNav a {font-size: .75rem;}
+}
+
 /* Grid */
 
 .bioMain {
