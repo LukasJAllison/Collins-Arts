@@ -11,9 +11,11 @@
 	      <div id="Sidenav" class="MainNav">
 		      <a href="javascript:void(0)" class="closebtn" conclick="closeNav()">close&times;</a>
 		      <a href="index.html">Home</a>
-		      <a href="Art_home">&#x25BC;Visual/Media Arts Home</a>
+		      <span id="artopen" style="display:inline" onclick="artDrop()">&#x25BC;</span>
+		      <span id="artclose" style="display:none" onclick="artUp()">&times;</span>
+		      <a href="Art_home">Visual/Media Arts Home</a>
 		      <span id="artpop" style="display:none">
-			      <a href="Allison_home.html">&#x25BC;Allison's Art Class</a>
+			      <span style="display:inline" onclick="allDrop()">&#x25BC;</span><a href="Allison_home.html">Allison's Art Class</a>
 			      <span id"allpop" style="display:none:">
 				      <a href="Weekly-vid.html">Allison's Weekly Videos</a>
 				      <a href="AllisonVR.html">Allison's Virtual Classroom</a>
@@ -28,6 +30,9 @@
 			      <a href="Orchestra_home.html">The Orchestra Pit</a>
 		      </span>
 	      </div>
+	      <div>
+	      <span class="navi" onclick="openNav()">&#x2630;open</span>
+		      <div>
                   
 	      
             
@@ -65,7 +70,24 @@
                   
                   <!--Scripts-->
  <script>
-      	
+    function openNav() {
+	    document.getElementById("Sidenav").style.width = "250px";
+	    document.getElementById("main").style.marginLeft = "250px";
+	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+	function closeNav() {
+		document.getElementById("Sidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft = "0";
+		document.body.style.backgroundColor = "white";
+	}
+function artDrop() {
+	document.getElementById("artpop").style.display = "inline";
+	document.getElementById("artopen").style.display = "none";
+	document.getElementById("artclose").style.display = "inline";
+}
+
+
+	
 </script>
       </body>
  </html>
