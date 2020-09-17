@@ -491,7 +491,7 @@ button:active,
 
 .bioMain {
     font-family: Impact, Charcoal, sans-serif;
-    width: 98%;
+    max-width: 98%;
 }
        
 .grid-item {
@@ -536,7 +536,7 @@ button:active,
 
 .bioMain .grid-container {
     display: grid;
-    height: 480px;
+    width: 100%;
     grid-gap: 0px;
     background-color: #939ab6;
     padding: 5px;
