@@ -493,36 +493,46 @@ button:active,
     font-family: Impact, Charcoal, sans-serif;
 }
        
-.bioMain .item1 { grid-area: photo; }
-.bioMain .item2 { grid-area: about; }
-.bioMain .item3 { grid-area: captn; }
-.bioMain.alt .item1 { grid-area: photo; }
-.bioMain.alt .item2 { grid-area: about; }
-.bioMain.alt .item3 { grid-area: captn; }
+.grid-item {
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+}
+
+.item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.item3 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.item1.alt {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 3;
+}
+
+.item2.alt {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.item3.alt {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 
 .bioMain .grid-container {
     display: grid;
     height: 480px;
-    grid-template-areas:
-        'photo photo photo about about about'
-        'photo photo photo about about about'
-        'photo photo photo about about about'
-        'photo photo photo about about about'
-        'captn captn captn about about about';
-    grid-gap: 0px;
-    background-color: #939ab6;
-    padding: 5px;
-}
-
-.bioMain.alt .grid-container {
-    display: grid;
-    height: 480px;
-    grid-template-areas:
-        'about about about photo photo photo'
-        'about about about photo photo photo'
-        'about about about photo photo photo'
-        'about about about photo photo photo'
-        'about about about captn captn captn';
     grid-gap: 0px;
     background-color: #939ab6;
     padding: 5px;
