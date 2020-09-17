@@ -627,7 +627,7 @@ button:active,
     margin: auto;
 }
 
-.showcase .inner {
+.showcase .inside {
     
     padding-left: 20px;
     padding-right: 20px;
@@ -686,7 +686,7 @@ button:active,
 }
 
 @media screen and (max-width: 736px) {
-    .showcase.innerL {
+    .showcase .inside {
         padding-left: 10px;
         padding-right: 10px;
         display: inline-block;
