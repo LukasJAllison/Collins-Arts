@@ -703,10 +703,10 @@ button:active,
 /*  Header */
 
     body { 
-        background-image: url('webBG1.png');
         background-attachment: fixed;
         background-position: center;
         background-color: #102f45;
+        background-image: linear-gradient(to bottom right, #102f45, #121a1f);
         background-repeat: no-repeat;
         background-size: 110% 110%;
         top: 0;
