@@ -807,6 +807,26 @@ button:active,
     color: #f0f8ff !important;
 }
 
+/*Icon*/
+
+.icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+}
+
+    .icon:before {
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+}
+
+    .icon > .label {
+        display: none;
+}
+
+/*Footer*/
+
 #footer {
     padding: 2rem 0 0.1rem 0;
     text-align: center;
