@@ -793,7 +793,14 @@ button:active,
     font-family: Verdana, Geneva, sans-serif;
 }
 
+.wrapper > header.special {
+    padding: 4rem 2rem;
+}
+
 .wrapper.style1 .content {
+    padding: 2rem;
+}
+.wrapper .content{
     padding: 2rem;
 }
 
