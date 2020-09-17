@@ -628,11 +628,13 @@ button:active,
 }
 
 .showcase .innerL {
+    max-width: 50%;
     padding: 6rem;
     float: left;
 }
 
 .showcase .innerR {
+    max-width: 50%
     padding: 6rem;
     float: right;
 }
