@@ -627,8 +627,14 @@ button:active,
     margin: auto;
 }
 
-.showcase .inner {
+.showcase .innerL {
     padding: 6rem;
+    float: left;
+}
+
+.showcase .innerR {
+    padding: 6rem;
+    float: right;
 }
 
 .showcase .image {
@@ -683,8 +689,13 @@ button:active,
 }
 
 @media screen and (max-width: 736px) {
-    .showcase.inner {
+    .showcase .innerL {
         padding: 1rem;
+        float: left;
+    }
+    .showcase .innerR {
+        padding: 1rem;
+        float: right;
     }
 }
     
