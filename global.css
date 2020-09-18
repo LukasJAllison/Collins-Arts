@@ -503,9 +503,41 @@ button:active,
     text-align: center;
     font-size: 1rem;
 }
+@media screen and (max-width: 480px) {
+    .grid-item {
+        font-size: .5rem;
+    }
+    .bioMain .grid-container {
+        grid-gap: 0px;
+        padding: 2px;
+    }
+    .item1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .item2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .item3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .item1.alt {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .item2.alt {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .item3.alt {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
 .grid-item img {
     width: 100%;
-    min-height: 30%;
 }
 
 .item1 {
