@@ -491,7 +491,7 @@ button:active,
 
 .bioMain {
     font-family: Impact, Charcoal, sans-serif;
-    max-width: 98%;
+    max-width: 90%;
 }
        
 .grid-item {
@@ -503,6 +503,7 @@ button:active,
 }
 .grid-item img {
     width: 100%;
+    min-height: 50%;
 }
 
 .item1 {
@@ -510,15 +511,24 @@ button:active,
     grid-row: 1 / span 9;
     
 }
-
+.item1.alt {
+    grid-column: 4;
+    grid-row: 1 / span 9;
+}
 .item2 {
     grid-column: 7;
     grid-row: 1 / span 7;
-    
 }
-
+.item2.alt {
+    grid-column: 1 / span 3;
+    grid-rown: 1 / span 7;
+}
 .item3 {
     grid-column: 7;
+    grid-row: 8 / span 2;
+}
+.item3.alt {
+    grid-column: 1 / span 3;
     grid-row: 8 / span 2;
 }
 
