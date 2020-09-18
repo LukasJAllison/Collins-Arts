@@ -65,7 +65,9 @@
           
           <section id="three" class="wrapper">
               
-                <!--Kevin-->
+		  <div id="about" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeAbout()">close &#x2715;</a>
+		  <!--Kevin-->
 		  <div class="inner">
 		      <div class="bioMain">
 			      <div class="grid-container">
@@ -110,6 +112,9 @@
 			      </div>
 		      </div>
 		  </div>
+			  <div>
+	      <span class="navi" onclick="openAbout()">&#x2630; About Us</span>
+		      </div>
           </section>
     </div>
   </section>
@@ -138,6 +143,12 @@
 		document.getElementById("main").style.marginLeft = "0";
 		
 	}
+function openAbout() {
+	document.getElementById("about").style.width = "100%";
+}
+function closeAbout() {
+	document.getElementById("about").style.width = "0";
+}
 function artDrop() {
 	document.getElementById("artpop").style.display = "block";
 	document.getElementById("artopen").style.display = "none";
