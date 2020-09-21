@@ -2636,11 +2636,15 @@
 }
 
 .navi {
+	position: fixed;
+	top: 0;
+	left; 0;
     background-color: #333333;
     font-size: 25px;
     padding: 10px 10px;
     color: white;
     cursor: pointer;
+	z-index: 2000;
 }
 .navi a:hover {
     color: "c6c6c6"
