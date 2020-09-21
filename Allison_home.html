@@ -9,33 +9,45 @@
 </head>
 
 <body onload="set_style_from_cookie()">
-<div class="menuS">
-	
-	<div class="dropdown">
-		<button class="dropbtn">Main
-		</button>
-	<div class="dropdown-content">
-		<a href="https://www.shelby.kyschools.us/Domain/19" target="_blank">MLCHS Home</a>
-		<a href="index.html">Collins Fine Arts Home</a>
-		<a href="Art_Home.html">Visual Arts Home</a>
-		<a href="Allison_home.html">Allison's Art Room</a>
-		<a href="C_home.html">Mr. C's Room</a>
-		<a href="MediaArt_Home.html">Rush's Room</a>
+	 <div id="Sidenav" class="MainNav">
+		      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &#x2715;</a>
+		      
+			<a href="index.html">Home</a>
+		      <span class="objNav" style="display:block" id="artopen" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="artDrop()">Art &#x25BC;</span><span class="objNav" id="artclose" style="display:none" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="artUp()">Art &#x2715;</span>
+		      
+		      <span id="artpop" style="display:none">
+			      <a href="Art_home.html" style="padding-left:75px">Art Home</a>
+			     <span class="objNav" id="allOpen" style="display:block; padding-left:75px" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="allDrop()">Allison's Art Room &#x25BC;</span><span class="objNav" id="allClose" style="display:none; padding-left:75px" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="allUp()">Allison's Art Room &#x2715;</span> 
+			      <span id="allpop" style="display:none">
+				      <a href="Allison_home.html" style="padding-left:100px; font-size:1rem">Allison's Art Home</a>
+				      <a href="weekly-vid.html" style="padding-left:100px; font-size:1rem">Allison's Weekly Videos</a>
+				      <a href="AllisonVR.html" style="padding-left:100px; font-size:1rem">Allison's Virtual Classroom</a>
+				      <a href="help-vid.html" style="padding-left:100px; font-size:1rem">Helpful Videos</a>
+				      <a href="feedback.html" style="padding-left:100px; font-size:1rem">Feedback</a>
+				      
+			      </span>
+			      <a href="C_home.html" style="padding-left:75px">C's Art Class</a>
+			      <a href="MediaArt_Home.html" style="padding-left:75px">Rush's Media Room</a>
+			      <a href="Art_Gallery.html" style="padding-left:75px">Virtual Gallery Walk</a>
+		      </span>
+		      <span class="objNav" id="mOpen" style="display:block" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="mDrop()">Music &#x25BC;</span><span class="objNav" id="mClose" style="display:none" onmouseover="this.style.color = 'white'" onmouseleave="this.style.color = '#c1c1c1'" onclick="mUp()">Music &#x2715;</span>
+		      
+		      <span id="mpop" style="display:none">
+			      <a href="Music_home" style="padding-left:75px">Music Home</a>
+			      <a href="Band_home.html" style="padding-left:75px">The Band Room</a>
+			      <a href="Choir_home.html" style="padding-left:75px">The Choir Chamber</a>
+			      <a href="Orchestra_home.html" style="padding-left:75px">The Orchestra Pit</a>
+			      <a href="MPhoto_Gallery.html" style="padding-left:75px">Photo Gallery</a>
+		      </span>
+				
+				
+				
 	</div>
-	</div>
-	<div class="dropdown">
-		<button class="dropbtn">Extras
-		</button>
-	<div class="dropdown-content">
-		<a href="help-vid.html">Helpful Videos</a>
-		<a href="weekly-vid.html" target="_blank">Weekly Videos</a>
-		<a href="feedback.html" target="_blank">Feedback Form</a>
-		<a href="AllisonVR.html" target="_blank">Virtual Classroom</a>
-		<a href="Art_Gallery.html">Virtual Art Gallery</a>
-		
-	</div>
-	</div>
-</div>
+	      <div>
+	      <span class="navi" onclick="openNav()">&#x2630; open</span>
+		      </div>
+                  
+
 <!-- Header -->
 			
 <!-- Main -->
@@ -84,6 +96,55 @@
 				
 	</section>
 <!-- Scripts -->
+						<script>
+						function openNav() {
+	    document.getElementById("Sidenav").style.width = "350px";
+	    document.getElementById("main").style.marginLeft = "350px";
+	    
+    }
+	function closeNav() {
+		document.getElementById("Sidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft = "0";
+		
+	}
+function artDrop() {
+	document.getElementById("artpop").style.display = "block";
+	document.getElementById("artopen").style.display = "none";
+	document.getElementById("artclose").style.display = "block";
+	document.getElementById("mpop").style.display = "none";
+	document.getElementById("mOpen").style.display = "block";
+	document.getElementById("mClose").style.display = "none";
+}
+	 function artUp() {
+	document.getElementById("artpop").style.display = "none";
+	document.getElementById("artopen").style.display = "block";
+	document.getElementById("artclose").style.display = "none";
+}
+function allDrop() {
+	document.getElementById("allpop").style.display = "block";
+	document.getElementById("allOpen").style.display = "none";
+	document.getElementById("allClose").style.display = "block";
+}
+	 function allUp() {
+	document.getElementById("allpop").style.display = "none";
+	document.getElementById("allOpen").style.display = "block";
+	document.getElementById("allClose").style.display = "none";
+}
+
+function mDrop() {
+	document.getElementById("mpop").style.display = "block";
+	document.getElementById("mOpen").style.display = "none";
+	document.getElementById("mClose").style.display = "block";
+	document.getElementById("artpop").style.display = "none";
+	document.getElementById("artopen").style.display = "block";
+	document.getElementById("artclose").style.display = "none";
+}
+	 function mUp() {
+	document.getElementById("mpop").style.display = "none";
+	document.getElementById("mOpen").style.display = "block";
+	document.getElementById("mClose").style.display = "none";
+}
+						</script>
 	<script src="jquery.min.js"></script>
 	<script src="jquery.poptrox.min.js"></script>
 						<script src="switcher.js"></script>
