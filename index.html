@@ -56,8 +56,7 @@
 					<section id="one" class="wrapper style1">
 		<header class="special">
 				<h2>MLCHS Fine Arts Hub</h2>
-			<p> Click the "Safari" button if you are using Safari/iOS browser </p>
-			<button type="button" onclick="switch_style('safari-alt');return false;" name="theme" value="Safari" id="safari">Safari</button>
+			
 			</header>
 					  <div class="image fit flush">
                       <video autoplay playsinline muted width="100%" height="auto" src="Video_Banner_Main.mp4" poster="Banner.jpg" ></video>
@@ -150,14 +149,62 @@ I`m Proud To Be an Art Teacher at MLCHS! Go Titans!</p>
 
 
 		<!-- Scripts -->
-	<script src="switcher.js"></script>
-	<script src="switcher.js"></script>
+	<script>
+						function openNav() {
+	    document.getElementById("Sidenav").style.width = "350px";
+	    document.getElementById("main").style.marginLeft = "350px";
+	    
+    }
+	function closeNav() {
+		document.getElementById("Sidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft = "0";
+		
+	}
+function artDrop() {
+	document.getElementById("artpop").style.display = "block";
+	document.getElementById("artopen").style.display = "none";
+	document.getElementById("artclose").style.display = "block";
+	document.getElementById("mpop").style.display = "none";
+	document.getElementById("mOpen").style.display = "block";
+	document.getElementById("mClose").style.display = "none";
+}
+	 function artUp() {
+	document.getElementById("artpop").style.display = "none";
+	document.getElementById("artopen").style.display = "block";
+	document.getElementById("artclose").style.display = "none";
+}
+function allDrop() {
+	document.getElementById("allpop").style.display = "block";
+	document.getElementById("allOpen").style.display = "none";
+	document.getElementById("allClose").style.display = "block";
+}
+	 function allUp() {
+	document.getElementById("allpop").style.display = "none";
+	document.getElementById("allOpen").style.display = "block";
+	document.getElementById("allClose").style.display = "none";
+}
+
+function mDrop() {
+	document.getElementById("mpop").style.display = "block";
+	document.getElementById("mOpen").style.display = "none";
+	document.getElementById("mClose").style.display = "block";
+	document.getElementById("artpop").style.display = "none";
+	document.getElementById("artopen").style.display = "block";
+	document.getElementById("artclose").style.display = "none";
+}
+	 function mUp() {
+	document.getElementById("mpop").style.display = "none";
+	document.getElementById("mOpen").style.display = "block";
+	document.getElementById("mClose").style.display = "none";
+}
+						</script>
 	<script src="jquery.min.js"></script>
 	<script src="jquery.poptrox.min.js"></script>
-	<script src="skel.min.js"></script>
-	<script src="util.js"></script>
-	<script src="main.js"></script>
-    <script type="text/javascript">
+						<script src="switcher.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/main.js"></script>
+    <script type="javascript">
     </script>
 	</body>
 </html>
