@@ -70,7 +70,7 @@
 						<div class="content">
 						     <h2>Art 1 - Week 4 (Sept 21-25, 2020)</h2>
 					<div class="VidsCon alt">
-								<video frameborder="2"  poster="PlayButton_04.png" onclick="this.paused ? this.play() : this.pause();">
+								<video id="a1w4" frameborder="2"  poster="PlayButton_04.png" onclick="this.paused ? this.play() : this.pause();" onended="a1contOn()">
 									<source src="Week4-Sept21-Art1-480p.mp4" type="video/mp4">
 								</video>
 						</div>
@@ -279,6 +279,9 @@
 	
 	function closeArc2() {
 		document.getElementById("archive2").style.width = "0%";
+	}
+	function a1contOn() {
+		document.getElementById("a1w4").controls = true;
 	}
 </script>
 				<script src="switcher.js"></script>
