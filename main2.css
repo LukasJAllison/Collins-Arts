@@ -2596,7 +2596,7 @@
 /*Overlay*/
 .overlay {
 	height: 100%;
-	width: 0;
+	width: 0%;
 	position: fixed;
 	z-index: 1010;
 	left: 0;
