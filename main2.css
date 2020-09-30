@@ -2640,10 +2640,11 @@
 }
 
 .overlay .closebtn {
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 45px;
 	font-size: 60px;
+	z-index: 100;
 }
 
 .navi {
