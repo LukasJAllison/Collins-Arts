@@ -2526,6 +2526,29 @@
 		align-content: space-around;
 	}
 
+/*Management Menu*/
+
+.top-menu {
+	overflow: hidden;
+	background-color: #161d23;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.top-menu a {
+	float: left;
+	display: block;
+	color: #afbfcc;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-menu a:hover {
+	background: #6095bd;
+	color: black;
+}
 /*Navbar */
 
 .navbar {
