@@ -51,6 +51,22 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/*block-quote cool*/
+.quote-c {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	background-image: linear-gradient(to left, #b0c0cd, #6095bd, #6095bd, #3585c6, #6095bd, #6095bd, #b0c0cd);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.line-c {
+	width: 100px;
+	color: afbfcc;
+}
 /* Box Model */
 
 	*, *:before, *:after {
