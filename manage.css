@@ -118,6 +118,13 @@ body {
   z-index: 10;
 }
 
+.quote-a {
+ padding: 15px;
+ font-family: 'Flamenco';
+ font-size: 1.5em;
+ color: #161d23;
+ }
+
 .quote-b {
   padding: 15px;
   font-family: 'Dekko';
@@ -187,6 +194,10 @@ padding: 5px;
   padding: 5px;
   }
 .quote-b {
+  font-size: .75em;
+  padding: 5px;
+ }
+.quote-a {
   font-size: .75em;
   padding: 5px;
  }
