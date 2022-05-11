@@ -101,12 +101,18 @@ h2{
 h1 {
 font-size: 1.75em;
 }
-	h2 {
-		font-size: 1em;
-	}
+p {
+font-size: .75em;
+padding: 5px;
 }
+.quote-box {
+  padding: 10px;
+  }
+.quote-c {
+  font-size: 1em;
+  padding: 5px;
+  }
 }
-
 p {
   line-height: 1.6;
   font-family: 'Epilogue';
