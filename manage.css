@@ -93,7 +93,9 @@ body {
     transform: none;
   }
 }
-
+ul.a {
+  list-style-image: url('brushicon.png');
+}
 .quote-box {
   width: 80%;
   box-shadow: 5px 5px 10px black;
