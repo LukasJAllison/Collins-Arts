@@ -148,6 +148,12 @@ ul.a {
 	color: #161d23;
 }
 
+.quote-e {
+	padding: 30px;
+	font-family: 'Joti One';
+	font-size: 2em;
+	color: #161d23;
+}
 div.polaroid {
   width: 90%;
   margin: auto;
@@ -198,6 +204,10 @@ padding: 5px;
 .proc {
   padding: 10px;
   }
+	.quote-e {
+		font-size: 1em;
+		padding: 5px;
+	}
 .quote-d {
 	font-size: 1em;
 	padding: 5px;
