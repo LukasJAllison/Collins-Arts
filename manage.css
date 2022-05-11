@@ -92,3 +92,22 @@ p {
   line-height: 1.6;
   font-family: 'Epilogue';
 }
+
+.foot {
+  padding: 2rem 0 0.1rem 0 ;
+	text-align: center;
+        color: white;
+}
+
+.foot a {
+  text-decoration: none;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.foot a:hover {
+	color: #FFF;
+}
+
+.foot ul {
+  list-style: none;
+}
