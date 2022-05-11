@@ -62,3 +62,9 @@ body {
   margin: auto;
   background: #afbfcc;
 }
+
+.quote-c {
+  font-family: 'Almendra';
+  font-size: 25px;
+  color: #161d23;
+}
