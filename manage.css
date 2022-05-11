@@ -58,9 +58,10 @@ body {
 
 .quote-box {
   width: 80%;
-  padding: 20px;
+  padding: 5px;
   margin: auto;
   background: #afbfcc;
+  border-radius: 25px;
 }
 
 .quote-c {
