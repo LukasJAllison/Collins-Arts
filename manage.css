@@ -79,3 +79,7 @@ body {
   margin: auto;
   background: #6095bd;
 }
+
+h1, h2, h3 {
+  text-align: center;
+}
