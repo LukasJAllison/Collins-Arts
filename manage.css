@@ -135,8 +135,15 @@ body {
 .quote-c {
   padding: 30px;
   font-family: 'Almendra';
-  font-size: 25px;
+  font-size: 2.5em;
   color: #161d23;
+}
+
+.quote-d {
+	padding: 30px;
+	font-family: 'Indie Flower';
+	font-size: 2em;
+	color: #161d23;
 }
 
 div.polaroid {
@@ -189,6 +196,10 @@ padding: 5px;
 .proc {
   padding: 10px;
   }
+.quote-d {
+	font-size: 1em;
+	padding: 5px;
+	}
 .quote-c {
   font-size: 1em;
   padding: 5px;
