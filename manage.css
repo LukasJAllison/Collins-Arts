@@ -82,8 +82,16 @@ body {
   z-index: -10;
 }
 
-h1, h2, h3 {
+h1{
   font-family: 'Emblema One';
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+h2{
+  font-family: 'Emblema One';
+  font-size: 4em;
   text-align: center;
   color: white;
   text-shadow: 5px 5px 10px black;
