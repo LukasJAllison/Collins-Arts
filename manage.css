@@ -85,3 +85,8 @@ h1, h2, h3 {
   font-family: 'Emblema One';
   text-align: center;
 }
+
+p {
+  line-height: 1.6;
+  font-family: 'Epilogue';
+}
