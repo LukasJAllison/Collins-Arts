@@ -67,6 +67,26 @@ body {
   background: #afbfcc;
   border-radius: 25px;
 }
+.proc {
+  width: 80%;
+  box-shadow: 5px 5px 10px black;
+  background: #afbfcc;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  z-index: 10;
+}
+
+.quote-b {
+  padding: 15px;
+  font-family: 'Dekko';
+  font-size: 2em;
+  color: #161d23;
+}
+
 .quote-c {
   padding: 30px;
   font-family: 'Almendra';
@@ -101,17 +121,24 @@ h2{
 h1 {
 font-size: 1.75em;
 }
+h2 {
+font-size: 1em;
+}	
 p {
 font-size: .75em;
 padding: 5px;
 }
-.quote-box {
+.proc {
   padding: 10px;
   }
 .quote-c {
   font-size: 1em;
   padding: 5px;
   }
+.quote-b {
+  font-size: .75em;
+  padding: 5px;
+ }
 }
 p {
   line-height: 1.6;
