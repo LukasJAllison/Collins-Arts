@@ -69,3 +69,10 @@ body {
   font-size: 35px;
   color: #161d23;
 }
+
+.main {
+  width: 90%;
+  height: 1500px;
+  margin: auto;
+  background: #6095bd;
+}
