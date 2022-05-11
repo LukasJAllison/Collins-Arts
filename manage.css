@@ -58,15 +58,17 @@ body {
 
 .quote-box {
   width: 80%;
-  padding: 5px;
-  margin: auto;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
   background: #afbfcc;
   border-radius: 25px;
 }
-
 .quote-c {
+  padding: 30px;
   font-family: 'Almendra';
-  font-size: 35px;
+  font-size: 25px;
   color: #161d23;
 }
 
