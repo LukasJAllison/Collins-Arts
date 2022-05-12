@@ -162,10 +162,12 @@ ul.a {
 }
 div.polaroid {
   width: 90%;
-  margin: auto;
+  margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin-bottom: 40%;
 }
 
 div.container {
