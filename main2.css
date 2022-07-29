@@ -79,6 +79,18 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+/* Mirror Proticol */
+#mirror-contain {
+	margin: 0px auto;
+	width: 375px;
+	height: 500px;
+	border: 10px #333 solid;
+}
+#videoElement-mirror {
+	width: 375px;
+	height: 500px;
+	background-color: #777;
+}
 
 /* Containers */
 
