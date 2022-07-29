@@ -80,13 +80,13 @@
 		box-sizing: border-box;
 	}
 /* Mirror Proticol */
-#mirror-contain {
+.mirror-contain {
 	margin: 0px auto;
 	width: 375px;
 	height: 500px;
 	border: 10px #333 solid;
 }
-#videoElement-mirror {
+.videoElement-mirror {
 	width: 375px;
 	height: 500px;
 	background-color: #777;
